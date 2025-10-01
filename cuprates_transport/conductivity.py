@@ -7,7 +7,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib.collections import LineCollection
 from copy import deepcopy
-from cuprates_transport.scattering import Scattering
+from scattering import Scattering
 ##<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<#
 
 ## Units ////////
@@ -720,7 +720,7 @@ class Conductivity(Scattering):
 
 
 if __name__=="__main__":
-    from cuprates_transport.bandstructure import BandStructure
+    from bandstructure import BandStructure
     from scipy import linalg
 
     params = {
